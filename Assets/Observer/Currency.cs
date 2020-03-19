@@ -26,7 +26,7 @@ public class Currency : MonoBehaviour, ISubject
         for (int i=0; i<observers.Count; i++)
         {
             IObserver observe = observers[i];
-            observe.Update(dollar, euro, ruble);
+            observe.UpdateCurrency(dollar, euro, ruble);
         }
     }
 

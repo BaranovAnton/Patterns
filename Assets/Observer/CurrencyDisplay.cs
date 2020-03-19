@@ -19,7 +19,7 @@ public class CurrencyDisplay : MonoBehaviour, IObserver, IDisplayElement
         Debug.Log("Current currency rate: " + dollar + "$ " + euro + " EU");
     }
 
-    public void Update(float dollar, float euro, float ruble)
+    public void UpdateCurrency(float dollar, float euro, float ruble)
     {
         this.dollar = dollar;
         this.euro = euro;

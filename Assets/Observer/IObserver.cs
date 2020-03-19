@@ -4,5 +4,5 @@ using UnityEngine;
 
 public interface IObserver
 {
-    void Update(float dollar, float euro, float ruble);
+    void UpdateCurrency(float dollar, float euro, float ruble);
 }
