@@ -2,17 +2,33 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NoMoneyState : MonoBehaviour
+public class NoMoneyState : IState
 {
-    // Start is called before the first frame update
-    void Start()
+    SodaMachine sodaMachine;
+
+    public NoMoneyState(SodaMachine _sodaMachine)
     {
-        
+        this.sodaMachine = _sodaMachine;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Dispense()
     {
-        
+        Debug.Log("No soda dispensed");
+    }
+
+    public void EjectMoney()
+    {
+        Debug.Log("Sorry, no money for getting back");
+    }
+
+    public void InsertMoney()
+    {
+        Debug.Log("You inserted money");
+        sodaMachine.SetState(sodaMachine.GetHasMoneyState());
+    }
+
+    public void PushButton()
+    {
+        Debug.Log("Insert money before");
     }
 }

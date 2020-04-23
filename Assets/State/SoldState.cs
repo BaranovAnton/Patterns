@@ -2,17 +2,40 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SoldState : MonoBehaviour
+public class SoldState : IState
 {
-    // Start is called before the first frame update
-    void Start()
+    SodaMachine sodaMachine;
+
+    public SoldState(SodaMachine _sodaMachine)
     {
-        
+        this.sodaMachine = _sodaMachine;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Dispense()
     {
-        
+        sodaMachine.ReleaseSoda();
+        if (sodaMachine.GetCount() > 0)
+        {
+            sodaMachine.SetState(sodaMachine.GetNoMoneyState());
+        } else
+        {
+            Debug.Log("No more soda");
+            sodaMachine.SetState(sodaMachine.GetSoldOutState());
+        }
+    }
+
+    public void EjectMoney()
+    {
+        Debug.Log("Sorry, you already pushed the button");
+    }
+
+    public void InsertMoney()
+    {
+        Debug.Log("Please wait, we're already giving you a soda");
+    }
+
+    public void PushButton()
+    {
+        Debug.Log("Pushing twice doesn't get you another soda");
     }
 }

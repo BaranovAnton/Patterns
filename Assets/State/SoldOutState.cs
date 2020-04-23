@@ -1,18 +1,34 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Net;
 using UnityEngine;
 
-public class SoldOutState : MonoBehaviour
+public class SoldOutState : IState
 {
-    // Start is called before the first frame update
-    void Start()
+    SodaMachine sodaMachine;
+
+    public SoldOutState(SodaMachine _sodaMachine)
     {
-        
+        this.sodaMachine = _sodaMachine;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Dispense()
     {
-        
+        Debug.Log("No soda");
+    }
+
+    public void EjectMoney()
+    {
+        Debug.Log("No soda");
+    }
+
+    public void InsertMoney()
+    {
+        Debug.Log("No soda");
+    }
+
+    public void PushButton()
+    {
+        Debug.Log("No soda");
     }
 }
