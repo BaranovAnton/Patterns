@@ -1,0 +1,15 @@
+C:\Users\baran\Documents\Patterns\MVVM-WPF-Example\MVVM-WPF-Example\bin\Debug\MVVM-WPF-Example.exe.config
+C:\Users\baran\Documents\Patterns\MVVM-WPF-Example\MVVM-WPF-Example\bin\Debug\MVVM-WPF-Example.exe
+C:\Users\baran\Documents\Patterns\MVVM-WPF-Example\MVVM-WPF-Example\bin\Debug\MVVM-WPF-Example.pdb
+C:\Users\baran\Documents\Patterns\MVVM-WPF-Example\MVVM-WPF-Example\obj\Debug\MVVM-WPF-Example.csprojAssemblyReference.cache
+C:\Users\baran\Documents\Patterns\MVVM-WPF-Example\MVVM-WPF-Example\obj\Debug\View\MainWindow.g.cs
+C:\Users\baran\Documents\Patterns\MVVM-WPF-Example\MVVM-WPF-Example\obj\Debug\App.g.cs
+C:\Users\baran\Documents\Patterns\MVVM-WPF-Example\MVVM-WPF-Example\obj\Debug\MVVM-WPF-Example_MarkupCompile.cache
+C:\Users\baran\Documents\Patterns\MVVM-WPF-Example\MVVM-WPF-Example\obj\Debug\MVVM-WPF-Example_MarkupCompile.lref
+C:\Users\baran\Documents\Patterns\MVVM-WPF-Example\MVVM-WPF-Example\obj\Debug\View\MainWindow.baml
+C:\Users\baran\Documents\Patterns\MVVM-WPF-Example\MVVM-WPF-Example\obj\Debug\MVVM-WPF-Example.g.resources
+C:\Users\baran\Documents\Patterns\MVVM-WPF-Example\MVVM-WPF-Example\obj\Debug\MVVM_WPF_Example.Properties.Resources.resources
+C:\Users\baran\Documents\Patterns\MVVM-WPF-Example\MVVM-WPF-Example\obj\Debug\MVVM-WPF-Example.csproj.GenerateResource.cache
+C:\Users\baran\Documents\Patterns\MVVM-WPF-Example\MVVM-WPF-Example\obj\Debug\MVVM-WPF-Example.csproj.CoreCompileInputs.cache
+C:\Users\baran\Documents\Patterns\MVVM-WPF-Example\MVVM-WPF-Example\obj\Debug\MVVM-WPF-Example.exe
+C:\Users\baran\Documents\Patterns\MVVM-WPF-Example\MVVM-WPF-Example\obj\Debug\MVVM-WPF-Example.pdb
