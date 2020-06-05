@@ -8,3 +8,13 @@ Project includes patterns:
   - Factory (Abstract factory & Factory method)
   - Singleton
   - Command
+  - Composite
+  - Facade
+  - Iterator
+  - Proxy
+  - State
+  - Template method
+  - Adapter
+
+Additional WPF project includes:
+  - MVVM pattern
